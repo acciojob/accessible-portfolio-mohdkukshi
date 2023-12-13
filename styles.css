@@ -1,2 +1,54 @@
 
 /* Your CSS Code here. */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+.header-text {
+    text-align: center;
+    display: block;
+    position: absolute;
+    /* background-color: aqua; */
+    margin-left: 330px;
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+
+.nav-bar {
+    /* background-color: blue; */
+    position: absolute;
+    display: block;
+    margin-top: 16px;
+    margin-left: 800px;
+}
+
+.navbar-list a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.mid-section {
+    display: block;
+    margin-top: 100px;
+    position: absolute;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image {
+    display: block;
+    text-align: center;
+    margin-left: 360px;
+    margin-right: auto;
+}
+
