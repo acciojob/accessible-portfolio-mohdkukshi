@@ -9,46 +9,44 @@
 <body>
 	<!-- the entire body must be written by student -->
 
-    <div class="container">
-      <header class="heading">
-        <div class="header-text">
-          <h1>Accessible Portfolio</h1>
-        </div>
-        <nav class="nav-bar">
-          <ul class="navbar-list">
-            <a href="#">Me</a>
-            <a href="#">Home</a>
-            <a href="#">Contact-me</a>
-          </ul>
+       <header>
+        <h1 role="heading">My Portfolio</h1>
+        <nav role="navigation">
+            <ul>
+                <li><a href="#about" role="listitem">About</a></li>
+                <li><a href="#projects" role="listitem">Projects</a></li>
+                <li><a href="#contact" role="listitem">Contact</a></li>
+            </ul>
         </nav>
-      </header>
+    </header>
 
-      <section class="mid-section">
-        <div class="image">
-          <img
-            class="image-1"
-            src="images/image-sunrise"
-            alt="image-1"
-            style="width: 200px; height: 200px"
-          />
-        </div> <br>
-        <p class="image-descrption">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio,
-          doloribus quae reprehenderit reiciendis numquam sequi voluptates
-          minima quas incidunt quisquam corporis quos assumenda asperiores ab
-          quidem nisi, earum nobis cum quasi mollitia exercitationem ad illum
-          beatae harum! Sunt magnam maxime possimus exercitationem. Ducimus
-          nobis, animi inventore fugit expedita quasi soluta.
-        </p>
+    <main>
+        <section id="about">
+            <h2 role="heading">About Me</h2>
+            <img style="width: 350px; height: 350px;" src="image/image-sunrise" alt="Profile Picture" role="img">
+            <p>A brief description of who I am and what I do.</p>
+            <ul role="list">
+                <li role="listitem">Skill 1</li>
+                <li role="listitem">Skill 2</li>
+                <li role="listitem">Skill 3</li>
+            </ul>
+        </section>
 
-        <ol>
-            <li>Apple</li>
-            <li>Banana</li>
-            <li>Cake</li>
-        </ol>
-      </section>
+        <section id="projects">
+            <h2 role="heading">Projects</h2>
+            <p>Descriptions of my recent projects.</p>
+            <ul role="list">
+                <li role="listitem">Project 1</li>
+                <li role="listitem">Project 2</li>
+                <li role="listitem">Project 3</li>
+            </ul>
+        </section>
 
-    </div>
+        <section id="contact">
+            <h2 role="heading">Contact Me</h2>
+            <p>You can reach me at email@example.com</p>
+        </section>
+    </main>
 
 	
     <script type="text/javascript" src="./script.js">
